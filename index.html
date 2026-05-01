@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lookfavor Éditions — Livres d’un pompier-ambulancier auteur</title>
+  <meta name="description" content="Lookfavor Éditions : livres, récits et projets autour de l’univers pompier-ambulancier, de la photographie de reportage et de la transmission terrain." />
+  <meta name="theme-color" content="#080d16" />
+  <style>
+    :root{--bg:#060a11;--bg2:#0c1422;--text:#f6f8fd;--muted:#aeb8ca;--red:#e33a42;--blue:#2374ff;--gold:#f0b84b;--green:#38d39f;--line:rgba(255,255,255,.12);--shadow:0 24px 80px rgba(0,0,0,.36);--radius:24px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 15% 0%,rgba(227,58,66,.28),transparent 34%),radial-gradient(circle at 84% 10%,rgba(35,116,255,.28),transparent 38%),linear-gradient(180deg,var(--bg),var(--bg2));color:var(--text);line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 36px));margin-inline:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(6,10,17,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0;gap:18px}.brand{display:flex;align-items:center;gap:12px;font-weight:850;letter-spacing:.04em;text-transform:uppercase}.logo{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--red),var(--blue));box-shadow:0 10px 30px rgba(35,116,255,.28);font-weight:900}
+    .links{display:flex;align-items:center;gap:18px;color:var(--muted);font-weight:650;font-size:14px}.links a:hover{color:var(--text)}
+    .top-controls{display:flex;gap:10px;align-items:end}.mini-field{display:grid;gap:4px}.mini-field label{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:900;margin:0}
+    select{appearance:none;border:1px solid var(--line);border-radius:14px;background:#101929;color:var(--text);padding:11px 38px 11px 13px;font-weight:850;font-size:14px;min-width:150px;background-image:linear-gradient(45deg,transparent 50%,#aeb8ca 50%),linear-gradient(135deg,#aeb8ca 50%,transparent 50%);background-position:calc(100% - 18px) 50%,calc(100% - 13px) 50%;background-size:5px 5px,5px 5px;background-repeat:no-repeat}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:999px;background:linear-gradient(135deg,var(--red),var(--blue));font-weight:850;border:0;box-shadow:0 18px 45px rgba(35,116,255,.26);cursor:pointer;text-align:center}.btn.secondary{background:rgba(255,255,255,.08);box-shadow:none;border:1px solid var(--line)}.btn.gold{background:linear-gradient(135deg,#f0b84b,#e36b3a);color:#10131a;box-shadow:0 18px 45px rgba(240,184,75,.18)}
+    .hero{padding:82px 0 54px}.grid{display:grid;grid-template-columns:1.08fr .92fr;gap:34px;align-items:center}
+    .eyebrow{display:inline-flex;gap:8px;align-items:center;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.06);color:var(--muted);font-weight:700;font-size:13px}
+    h1{font-size:clamp(40px,7vw,74px);line-height:.97;margin:22px 0 18px;letter-spacing:-.06em}h2{font-size:clamp(30px,4vw,50px);line-height:1.05;margin:0;letter-spacing:-.045em}h3{margin:0 0 10px;font-size:23px;line-height:1.15}
+    p{margin-top:0}.lead{font-size:clamp(18px,2vw,22px);color:#d6deed;max-width:760px;margin:0 0 28px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+    .trust{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:34px}.trust div{padding:14px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.055);color:var(--muted);font-weight:650;font-size:14px}
+    .visual{padding:18px;border:1px solid var(--line);border-radius:32px;background:linear-gradient(180deg,rgba(255,255,255,.12),rgba(255,255,255,.045));box-shadow:var(--shadow)}
+    .main-cover{min-height:520px;border-radius:24px;background:linear-gradient(145deg,#111827,#0b1220 42%,#14264c);padding:32px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative;border:1px solid rgba(255,255,255,.12)}.main-cover:before{content:"";position:absolute;inset:-22%;background:radial-gradient(circle at 25% 20%,rgba(227,58,66,.35),transparent 22%),radial-gradient(circle at 80% 30%,rgba(35,116,255,.42),transparent 26%),radial-gradient(circle at 45% 80%,rgba(240,184,75,.18),transparent 20%);filter:blur(8px)}.main-cover>*{position:relative}.cover-label{font-size:13px;text-transform:uppercase;letter-spacing:.16em;color:var(--gold);font-weight:900}.cover-title{font-size:48px;line-height:.96;margin:16px 0;font-weight:950;letter-spacing:-.055em}.cover-list{color:#d5dcea;margin:0;padding-left:18px}.stamp{align-self:flex-start;border:1px solid rgba(255,255,255,.24);padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.08);font-weight:850}
+    section{padding:66px 0}.section-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:28px}.section-head p{margin:0;color:var(--muted);max-width:560px}
+    .book-block{display:grid;grid-template-columns:.82fr 1.18fr;gap:28px;align-items:center}
+    .book-cover-frame{border:1px solid var(--line);border-radius:30px;background:linear-gradient(180deg,rgba(255,255,255,.1),rgba(255,255,255,.04));padding:14px;box-shadow:0 20px 70px rgba(0,0,0,.25)}
+    .book-cover-frame img{width:100%;display:block;border-radius:20px;aspect-ratio:2/3;object-fit:cover;object-position:center;box-shadow:0 24px 65px rgba(0,0,0,.3)}
+    .panel{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(180deg,rgba(255,255,255,.09),rgba(255,255,255,.04));padding:24px;box-shadow:0 18px 60px rgba(0,0,0,.18)}.panel p{color:var(--muted)}.split{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .selector-card{border:1px solid var(--line);border-radius:30px;background:linear-gradient(180deg,rgba(255,255,255,.1),rgba(255,255,255,.045));padding:24px;box-shadow:0 18px 60px rgba(0,0,0,.18)}.selector-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}.selector-grid label{display:block;color:var(--muted);font-weight:800;font-size:13px;margin-bottom:7px}.selector-grid select{width:100%;min-width:0;font-size:15px;padding:13px 40px 13px 14px}
+    .result{border:1px solid rgba(240,184,75,.32);background:rgba(240,184,75,.08);padding:18px;border-radius:22px;margin-top:18px}.result strong{color:#fff2c7}.result p{color:#ffe3a8;margin-bottom:12px}.country-note{color:var(--muted);font-size:14px;margin-top:10px}.lang-pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.pill{border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.07);padding:8px 12px;color:var(--muted);font-weight:800;font-size:13px}
+    .bio{display:grid;grid-template-columns:1fr 1fr;gap:20px}.bio strong{color:#fff}
+    .future-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.future{border:1px dashed rgba(255,255,255,.25);border-radius:var(--radius);padding:22px;background:rgba(255,255,255,.04);min-height:250px;display:flex;flex-direction:column;justify-content:space-between}.future .status{color:var(--green);font-weight:900;font-size:12px;letter-spacing:.12em;text-transform:uppercase}.tag{display:inline-block;color:#ffe3a8;background:rgba(240,184,75,.08);border:1px solid rgba(240,184,75,.32);border-radius:999px;padding:7px 11px;font-weight:800;font-size:13px;margin-bottom:12px}.note{border:1px solid rgba(240,184,75,.32);background:rgba(240,184,75,.08);padding:18px;border-radius:22px;color:#ffe3a8}
+    footer{padding:36px 0 46px;border-top:1px solid var(--line);color:var(--muted)}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.legal-links{display:flex;gap:14px;flex-wrap:wrap}
+    @media(max-width:1060px){.links{display:none}.future-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:920px){.grid,.book-block,.split,.bio{grid-template-columns:1fr}.main-cover{min-height:390px}.section-head{display:block}.section-head p{margin-top:12px}}@media(max-width:720px){.nav{align-items:flex-start}.top-controls{width:100%;display:grid;grid-template-columns:1fr 1fr}.mini-field select{width:100%;min-width:0}.brand span:last-child{display:none}}@media(max-width:620px){.trust,.future-grid,.selector-grid{grid-template-columns:1fr}.hero{padding-top:54px}.cover-title{font-size:36px}.btn{width:100%}.hero-actions .btn{width:100%}.top-controls{grid-template-columns:1fr}}
+  </style>
+</head>
+
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top"><span class="logo">LF</span><span data-key="brand">Lookfavor Éditions</span></a>
+    <nav class="links" aria-label="Navigation principale">
+      <a href="#livre" data-key="nav_book">Le livre</a>
+      <a href="#acheter" data-key="nav_buy">Acheter</a>
+      <a href="#auteur" data-key="nav_author">L’auteur</a>
+      <a href="#futurs-livres" data-key="nav_future">Futurs livres</a><a href="https://www.instagram.com/the_lookfavor" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+    <div class="top-controls">
+      <div class="mini-field"><label for="siteLanguageSelect" data-key="site_language_label">Langue du site</label><select id="siteLanguageSelect"><option value="fr">FR · Français</option><option value="nl">NL · Nederlands</option><option value="en">EN · English</option></select></div>
+      <div class="mini-field"><label for="siteCountrySelect" data-key="site_country_label">Pays Amazon</label><select id="siteCountrySelect"><option value="auto">Auto</option><option value="be">Belgique</option><option value="fr">France</option><option value="us">États-Unis</option><option value="uk">Royaume-Uni</option><option value="de">Allemagne</option><option value="es">Espagne</option><option value="it">Italie</option><option value="nl">Pays-Bas</option><option value="pl">Pologne</option><option value="se">Suède</option><option value="ie">Irlande</option></select></div>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap grid">
+      <div>
+        <span class="eyebrow" data-key="hero_eyebrow">Auteur · photographe · pompier-ambulancier</span>
+        <h1 data-key="hero_title">Entre flammes, image et mémoire.</h1>
+        <p class="lead" data-key="hero_lead">Des livres nés du terrain et de l’humain : récits, photographies, carnets et projets autour du métier de pompier-ambulancier, de la transmission et de ces instants qu’on ne peut pas rejouer.</p>
+        <div class="hero-actions"><a class="btn gold" href="#acheter" data-key="hero_cta_buy">Choisir mon édition</a><a class="btn secondary" href="#futurs-livres" data-key="hero_cta_future">Voir les futurs livres</a></div>
+        <div class="trust"><div data-key="trust_1">Une vision terrain, sincère et accessible.</div><div data-key="trust_2">Un regard de pompier et de photographe.</div><div data-key="trust_3">Des livres pour transmettre, pas pour décorer.</div></div>
+      </div>
+      <div class="visual"><div class="main-cover"><div><div class="cover-label" data-key="brand">Lookfavor Éditions</div><div class="cover-title" data-key="cover_title">Écrire le terrain. Capturer l’instant.</div><ul class="cover-list"><li data-key="cover_li_1">Récits de pompier-ambulancier</li><li data-key="cover_li_2">Photographie de reportage</li><li data-key="cover_li_3">Transmission, discipline et humanité</li></ul></div><span class="stamp" data-key="stamp">LOOKFAVOR · LIVRES</span></div></div>
+    </div>
+  </section>
+
+  <section id="livre">
+    <div class="wrap book-block">
+      <div class="book-cover-frame"><img id="bookCoverImage" src="assets/cover-fr.jpg" alt="Couverture du livre L’Art de l’Instant" /></div>
+      <div>
+        <span class="tag" data-key="amazon_tag">Disponible sur Amazon</span>
+        <h2 id="displayBookTitle">L’Art de l’Instant</h2>
+        <p id="displaySubtitle" class="lead">Chronique d’un pompier-photographe belge</p>
+        <p data-key="book_lead">Un récit personnel et visuel sur le regard, le feu, la photographie de reportage et la persévérance. Un livre écrit depuis le terrain, avec la sensibilité d’un pompier-ambulancier et l’œil d’un photographe.</p>
+        <p data-key="book_text">Choisissez d’abord la langue du site et le pays Amazon en haut à droite. Ensuite, choisissez la langue du livre. Le bouton Amazon s’adapte automatiquement.</p>
+        <div class="hero-actions"><a class="btn gold" href="#acheter" data-key="book_cta">Acheter le livre</a><a class="btn secondary" href="#auteur" data-key="book_cta_author">Découvrir l’auteur</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="acheter">
+    <div class="wrap">
+      <div class="section-head"><h2 data-key="selector_title">Choisir la langue du livre</h2><p data-key="selector_intro">Le pays Amazon est celui choisi en haut du site. Ici, vous choisissez simplement l’édition linguistique du livre.</p></div>
+      <div class="selector-card">
+        <div class="selector-grid">
+          <div><label for="bookLanguageSelect" data-key="book_language_label">Langue du livre</label><select id="bookLanguageSelect"><option value="fr">Français — L’Art de l’Instant</option><option value="nl">Nederlands — De Kunst van het Ogenblik</option><option value="en">English — The Art of the Instant</option></select></div>
+          <div><label for="countryMirror" data-key="selected_country_label">Pays Amazon utilisé</label><select id="countryMirror" disabled><option>France</option></select></div>
+        </div>
+        <div class="result"><p><strong id="resultTitle">L’Art de l’Instant</strong></p><p id="resultText">Lien recommandé : Amazon France.</p><a id="amazonButton" class="btn gold" href="https://kdp.amazon.com/amazon-dp-action/fr/dualbookshelf.marketplacelink/B0FHVGN67M" target="_blank" rel="noopener">Ouvrir sur Amazon</a><div class="country-note" id="fallbackNote"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pourquoi">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-key="why_title">Pourquoi ce livre ?</h2>
+        <p data-key="why_intro">L’Art de l’Instant n’est pas seulement un livre de photos. C’est une trace : celle d’un regard, d’un parcours et d’une manière de transmettre le terrain.</p>
+      </div>
+      <div class="future-grid">
+        <article class="future">
+          <div>
+            <span class="status" data-key="why_1_label">Passion</span>
+            <h3 data-key="why_1_title">Un rêve qui traverse les flammes</h3>
+            <p data-key="why_1_text">Ce livre raconte la persévérance, les détours et l’envie de continuer à créer malgré les contraintes du quotidien.</p>
+          </div>
+          <span class="tag" data-key="why_1_tag">Parcours</span>
+        </article>
+        <article class="future">
+          <div>
+            <span class="status" data-key="why_2_label">Image</span>
+            <h3 data-key="why_2_title">La photographie comme témoin</h3>
+            <p data-key="why_2_text">Chaque image devient une façon de retenir l’instant, de documenter l’action et de donner un visage à ce qui passe trop vite.</p>
+          </div>
+          <span class="tag" data-key="why_2_tag">Reportage</span>
+        </article>
+        <article class="future">
+          <div>
+            <span class="status" data-key="why_3_label">Terrain</span>
+            <h3 data-key="why_3_title">Le regard d’un pompier</h3>
+            <p data-key="why_3_text">Le livre est nourri par l’expérience d’un pompier-ambulancier professionnel à Bruxelles, entre mission, discipline et humanité.</p>
+          </div>
+          <span class="tag" data-key="why_3_tag">Métier</span>
+        </article>
+        <article class="future">
+          <div>
+            <span class="status" data-key="why_4_label">Transmission</span>
+            <h3 data-key="why_4_title">Partager ce que le public ne voit pas toujours</h3>
+            <p data-key="why_4_text">Sans héroïsme forcé, le livre cherche à montrer ce qui se joue derrière l’uniforme : l’effort, le doute, la présence et le sens du service.</p>
+          </div>
+          <span class="tag" data-key="why_4_tag">Mémoire</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="auteur">
+    <div class="wrap bio">
+      <div class="panel">
+        <h2 data-key="author_title">Gaétan Vermeire</h2>
+        <p data-key="author_bio_1">Gaétan Vermeire est auteur, photographe et pompier-ambulancier professionnel à Bruxelles. Son travail mêle écriture, regard documentaire et expérience de terrain.</p>
+        <p data-key="author_bio_2">Ses livres explorent ce que l’urgence révèle : l’humain, la discipline, la fragilité, la persévérance et les silences que l’on garde parfois après l’intervention.</p>
+      </div>
+      <div class="panel">
+        <h2>Lookfavor</h2>
+        <p data-key="lookfavor_meaning_1">Lookfavor est un nom inventé autour d’une idée simple : la vue est une faveur. Voir n’est pas seulement regarder. C’est apprendre à percevoir ce que d’autres ne remarquent pas toujours, même avec les yeux ouverts.</p>
+        <p data-key="lookfavor_meaning_2">C’est cette attention au détail, à l’instant et à l’humain qui guide l’univers éditorial de Gaétan Vermeire.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="instagram">
+    <div class="wrap split">
+      <div class="panel">
+        <h2 data-key="instagram_title">Suivre l’univers Lookfavor</h2>
+        <p data-key="instagram_text">Les coulisses, les images, les prochains livres et les projets autour de l’univers pompier sont partagés en priorité sur Instagram.</p>
+      </div>
+      <div class="panel">
+        <h2>@the_lookfavor</h2>
+        <p data-key="instagram_contact">Pour suivre le projet ou me contacter, le point d’entrée le plus simple reste Instagram.</p>
+        <a class="btn gold" href="https://www.instagram.com/the_lookfavor" target="_blank" rel="noopener" data-key="instagram_button">Ouvrir Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="futurs-livres">
+    <div class="wrap">
+      <div class="section-head"><h2 data-key="future_title">Futurs livres</h2><p data-key="future_intro">Cette vitrine est pensée pour accueillir les prochains projets éditoriaux de Gaétan Vermeire.</p></div>
+      <div class="future-grid">
+        <article class="future"><div><span class="status" data-key="future_status">À venir</span><h3 data-key="future_1_title">Carnet de garde</h3><p data-key="future_1_text">Un carnet inspiré de la vie de caserne pour noter les gardes, les apprentissages, les interventions marquantes et les progrès personnels.</p></div><span class="tag" data-key="future_1_tag">Projet éditorial</span></article>
+        <article class="future"><div><span class="status" data-key="future_status">À venir</span><h3 data-key="future_2_title">Journal d’un futur pompier</h3><p data-key="future_2_text">Un outil pour accompagner les candidats pompiers dans leur préparation, leur discipline, leur mental et leur organisation.</p></div><span class="tag" data-key="future_2_tag">Préparation & transmission</span></article>
+        <article class="future"><div><span class="status" data-key="future_status">À venir</span><h3 data-key="future_3_title">Carnet de préparation pompier</h3><p data-key="future_3_text">Un support pratique pour structurer l’entraînement, suivre ses progrès et avancer avec méthode vers les épreuves.</p></div><span class="tag" data-key="future_3_tag">Préparation physique & mentale</span></article>
+        <article class="future"><div><span class="status" data-key="future_status">À venir</span><h3>Entre Flammes & Silences</h3><p data-key="future_4_text">Un livre immersif et sans image sur l’envers du décor : le vécu de pompier, ce que le public ne voit pas, les émotions, les doutes, les leçons et les silences du métier.</p></div><span class="tag" data-key="future_4_tag">Récit immersif</span></article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot"><div>© <span id="year"></span> <span data-key="brand">Lookfavor Éditions</span> — <span data-key="footer_text">Livres, récits et projets terrain.</span></div><div class="legal-links"><a href="#livre" data-key="nav_book">Le livre</a><a href="#acheter" data-key="nav_buy">Acheter</a><a href="#auteur" data-key="nav_author">L’auteur</a><a href="https://www.instagram.com/the_lookfavor" target="_blank" rel="noopener">Instagram</a></div></div>
+</footer>
+
+<script>
+(function(){
+  const books = {
+    fr:{title:"L’Art de l’Instant",subtitle:"Chronique d’un pompier-photographe belge",cover:"assets/cover-fr.jpg",alt:"Couverture du livre L’Art de l’Instant",option:{fr:"Français — L’Art de l’Instant",nl:"Frans — L’Art de l’Instant",en:"French — L’Art de l’Instant"},asin:"B0FHVGN67M"},
+    nl:{title:"De Kunst van het Ogenblik",subtitle:"Kronieken van een Belgische Brandweerman-Fotograaf",cover:"assets/cover-nl.jpg",alt:"Cover van De Kunst van het Ogenblik",option:{fr:"Néerlandais — De Kunst van het Ogenblik",nl:"Nederlands — De Kunst van het Ogenblik",en:"Dutch — De Kunst van het Ogenblik"},asin:"B0FPQDSKDW"},
+    en:{title:"The Art of the Instant",subtitle:"Chronicle of a Belgian Firefighter-Photographer",cover:"assets/cover-en.jpg",alt:"Cover of The Art of the Instant",option:{fr:"Anglais — The Art of the Instant",nl:"Engels — The Art of the Instant",en:"English — The Art of the Instant"},asin:"B0FNCCRLSD"}
+  };
+  const countries={auto:{fr:"Auto · selon la langue du site",nl:"Auto · volgens sitetaal",en:"Auto · by site language"},be:{fr:"Belgique",nl:"België",en:"Belgium"},fr:{fr:"France",nl:"Frankrijk",en:"France"},us:{fr:"États-Unis",nl:"Verenigde Staten",en:"United States"},uk:{fr:"Royaume-Uni",nl:"Verenigd Koninkrijk",en:"United Kingdom"},de:{fr:"Allemagne",nl:"Duitsland",en:"Germany"},es:{fr:"Espagne",nl:"Spanje",en:"Spain"},it:{fr:"Italie",nl:"Italië",en:"Italy"},nl:{fr:"Pays-Bas",nl:"Nederland",en:"Netherlands"},pl:{fr:"Pologne",nl:"Polen",en:"Poland"},se:{fr:"Suède",nl:"Zweden",en:"Sweden"},ie:{fr:"Irlande",nl:"Ierland",en:"Ireland"}};
+  const countryOrder={fr:["auto","be","fr","us","uk","de","es","it","nl","pl","se","ie"],nl:["auto","be","nl","fr","de","uk","us","ie","se","pl","es","it"],en:["auto","us","uk","ie","be","fr","de","nl","se","pl","es","it"]};
+  const defaultCountry={fr:"fr",nl:"be",en:"us"};
+  const text={
+    fr:{pageTitle:"Lookfavor Éditions — Livres d’un pompier-ambulancier auteur",brand:"Lookfavor Éditions",stamp:"LOOKFAVOR · LIVRES",site_language_label:"Langue du site",site_country_label:"Pays Amazon",nav_book:"Le livre",nav_buy:"Acheter",nav_author:"L’auteur",nav_future:"Futurs livres",hero_eyebrow:"Auteur · photographe · pompier-ambulancier",hero_title:"Entre flammes, image et mémoire.",hero_lead:"Des livres nés du terrain et de l’humain : récits, photographies, carnets et projets autour du métier de pompier-ambulancier, de la transmission et de ces instants qu’on ne peut pas rejouer.",hero_cta_buy:"Choisir mon édition",hero_cta_future:"Voir les futurs livres",trust_1:"Une vision terrain, sincère et accessible.",trust_2:"Un regard de pompier et de photographe.",trust_3:"Des livres pour transmettre, pas pour décorer.",cover_title:"Écrire le terrain. Capturer l’instant.",cover_li_1:"Récits de pompier-ambulancier",cover_li_2:"Photographie de reportage",cover_li_3:"Transmission, discipline et humanité",amazon_tag:"Disponible sur Amazon",book_lead:"Un récit personnel et visuel sur le regard, le feu, la photographie de reportage et la persévérance. Un livre écrit depuis le terrain, avec la sensibilité d’un pompier-ambulancier et l’œil d’un photographe.",book_text:"Choisissez d’abord la langue du site et le pays Amazon en haut à droite. Ensuite, choisissez la langue du livre. Le bouton Amazon s’adapte automatiquement.",book_cta:"Acheter le livre",book_cta_author:"Découvrir l’auteur",selector_title:"Choisir la langue du livre",selector_intro:"Le pays Amazon est celui choisi en haut du site. Ici, vous choisissez simplement l’édition linguistique du livre.",book_language_label:"Langue du livre",selected_country_label:"Pays Amazon utilisé",open_amazon:"Ouvrir sur Amazon",recommended:"Lien recommandé",automatic:"Pays choisi automatiquement selon la langue du site.",author_title:"Gaétan Vermeire",author_bio_1:"Gaétan Vermeire est auteur, photographe et pompier-ambulancier professionnel à Bruxelles. Son travail mêle écriture, regard documentaire, photographie de terrain et expérience vécue au cœur du secours bruxellois.",author_bio_2:"Ses livres explorent ce que l’urgence révèle : l’humain, la discipline, la fragilité, la persévérance et les silences que l’on garde parfois après l’intervention.",lookfavor_meaning_1:"Lookfavor est un nom inventé autour d’une idée simple : la vue est une faveur. Voir n’est pas seulement regarder. C’est apprendre à percevoir ce que d’autres ne remarquent pas toujours, même avec les yeux ouverts.",lookfavor_meaning_2:"C’est cette attention au détail, à l’instant et à l’humain qui guide l’univers éditorial de Gaétan Vermeire.",future_title:"Futurs livres",future_intro:"Cette vitrine est pensée pour accueillir les prochains projets éditoriaux de Gaétan Vermeire.",future_status:"À venir",future_1_title:"Carnet de garde",future_1_text:"Un carnet inspiré de la vie de caserne pour noter les gardes, les apprentissages, les interventions marquantes et les progrès personnels.",future_1_tag:"Projet éditorial",future_2_title:"Journal d’un futur pompier",future_2_text:"Un outil pour accompagner les candidats pompiers dans leur préparation, leur discipline, leur mental et leur organisation.",future_2_tag:"Préparation & transmission",future_3_title:"Carnet de préparation pompier",future_3_text:"Un support pratique pour structurer l’entraînement, suivre ses progrès et avancer avec méthode vers les épreuves.",future_3_tag:"Préparation physique & mentale",future_4_text:"Un livre immersif et sans image sur l’envers du décor : le vécu de pompier, ce que le public ne voit pas, les émotions, les doutes, les leçons et les silences du métier.",future_4_tag:"Récit immersif",why_title:"Pourquoi ce livre ?",why_intro:"L’Art de l’Instant n’est pas seulement un livre de photos. C’est une trace : celle d’un regard, d’un parcours et d’une manière de transmettre le terrain.",why_1_label:"Passion",why_1_title:"Un rêve qui traverse les flammes",why_1_text:"Ce livre raconte la persévérance, les détours et l’envie de continuer à créer malgré les contraintes du quotidien.",why_1_tag:"Parcours",why_2_label:"Image",why_2_title:"La photographie comme témoin",why_2_text:"Chaque image devient une façon de retenir l’instant, de documenter l’action et de donner un visage à ce qui passe trop vite.",why_2_tag:"Reportage",why_3_label:"Terrain",why_3_title:"Le regard d’un pompier",why_3_text:"Le livre est nourri par l’expérience d’un pompier-ambulancier professionnel à Bruxelles, entre mission, discipline et humanité.",why_3_tag:"Métier",why_4_label:"Transmission",why_4_title:"Partager ce que le public ne voit pas toujours",why_4_text:"Sans héroïsme forcé, le livre cherche à montrer ce qui se joue derrière l’uniforme : l’effort, le doute, la présence et le sens du service.",why_4_tag:"Mémoire",instagram_title:"Suivre l’univers Lookfavor",instagram_text:"Les coulisses, les images, les prochains livres et les projets autour de l’univers pompier sont partagés en priorité sur Instagram.",instagram_contact:"Pour suivre le projet ou me contacter, le point d’entrée le plus simple reste Instagram.",instagram_button:"Ouvrir Instagram",footer_text:"Livres, récits et projets terrain."},
+    nl:{pageTitle:"Lookfavor Uitgeverij — Boeken van een brandweerman-ambulancier en auteur",brand:"Lookfavor Uitgeverij",stamp:"LOOKFAVOR · BOEKEN",site_language_label:"Taal van de site",site_country_label:"Amazon-land",nav_book:"Het boek",nav_buy:"Kopen",nav_author:"De auteur",nav_future:"Toekomstige boeken",hero_eyebrow:"Auteur · fotograaf · brandweerman-ambulancier",hero_title:"Tussen vlammen, beeld en herinnering.",hero_lead:"Boeken geboren uit het terrein en de mens: verhalen, foto’s, notitieboeken en projecten rond het beroep van brandweerman-ambulancier, overdracht en momenten die je niet opnieuw kunt beleven.",hero_cta_buy:"Mijn editie kiezen",hero_cta_future:"Toekomstige boeken bekijken",trust_1:"Een oprechte, toegankelijke blik vanop het terrein.",trust_2:"De blik van een brandweerman en fotograaf.",trust_3:"Boeken om door te geven, niet om te versieren.",cover_title:"Het terrein schrijven. Het ogenblik vastleggen.",cover_li_1:"Verhalen van een brandweerman-ambulancier",cover_li_2:"Reportagefotografie",cover_li_3:"Overdracht, discipline en menselijkheid",amazon_tag:"Beschikbaar op Amazon",book_lead:"Een persoonlijk en visueel verhaal over kijken, vuur, reportagefotografie en volharding. Een boek geschreven vanuit het terrein, met de gevoeligheid van een brandweerman-ambulancier en het oog van een fotograaf.",book_text:"Kies eerst de taal van de site en het Amazon-land rechtsboven. Kies daarna de taal van het boek. De Amazon-knop past zich automatisch aan.",book_cta:"Het boek kopen",book_cta_author:"De auteur ontdekken",selector_title:"De taal van het boek kiezen",selector_intro:"Het Amazon-land is het land dat bovenaan de site is gekozen. Hier kiest u alleen de taaleditie van het boek.",book_language_label:"Taal van het boek",selected_country_label:"Gebruikt Amazon-land",open_amazon:"Openen op Amazon",recommended:"Aanbevolen link",automatic:"Land automatisch gekozen volgens de taal van de site.",author_title:"Gaétan Vermeire",author_bio_1:"Gaétan Vermeire is auteur, fotograaf en professioneel brandweerman-ambulancier in Brussel. Zijn werk combineert schrijven, een documentaire blik, terreinfotografie en ervaring vanuit de Brusselse hulpverlening.",author_bio_2:"Zijn boeken onderzoeken wat urgentie onthult: menselijkheid, discipline, kwetsbaarheid, volharding en de stiltes die soms na een interventie blijven.",lookfavor_meaning_1:"Lookfavor is een naam die vertrekt van een eenvoudige gedachte: zien is een gunst. Zien is niet alleen kijken. Het is leren waarnemen wat anderen niet altijd opmerken, zelfs met open ogen.",lookfavor_meaning_2:"Die aandacht voor detail, het ogenblik en de mens leidt het redactionele universum van Gaétan Vermeire.",future_title:"Toekomstige boeken",future_intro:"Deze vitrine is ontworpen om de volgende redactionele projecten van Gaétan Vermeire te ontvangen.",future_status:"Binnenkort",future_1_title:"Wachtdienstboekje",future_1_text:"Een boekje geïnspireerd door het leven in de kazerne om wachtdiensten, lessen, markante interventies en persoonlijke vooruitgang te noteren.",future_1_tag:"Redactioneel project",future_2_title:"Dagboek van een toekomstige brandweerman",future_2_text:"Een hulpmiddel om kandidaat-brandweerlieden te begeleiden in hun voorbereiding, discipline, mindset en organisatie.",future_2_tag:"Voorbereiding & overdracht",future_3_title:"Voorbereidingsboek voor brandweerproeven",future_3_text:"Een praktische steun om training te structureren, vooruitgang op te volgen en methodisch naar de proeven toe te werken.",future_3_tag:"Fysieke & mentale voorbereiding",future_4_text:"Een meeslepend boek zonder beelden over de achterkant van het decor: het geleefde brandweerleven, wat het publiek niet ziet, de emoties, twijfels, lessen en stiltes van het beroep.",future_4_tag:"Meeslepend verhaal",why_title:"Waarom dit boek?",why_intro:"De Kunst van het Ogenblik is niet alleen een fotoboek. Het is een spoor: van een blik, een traject en een manier om het terrein door te geven.",why_1_label:"Passie",why_1_title:"Een droom die door de vlammen gaat",why_1_text:"Dit boek vertelt over volharding, omwegen en de wil om te blijven creëren ondanks de beperkingen van het dagelijks leven.",why_1_tag:"Traject",why_2_label:"Beeld",why_2_title:"Fotografie als getuige",why_2_text:"Elke foto wordt een manier om het ogenblik vast te houden, de actie te documenteren en een gezicht te geven aan wat te snel voorbijgaat.",why_2_tag:"Reportage",why_3_label:"Terrein",why_3_title:"De blik van een brandweerman",why_3_text:"Het boek is gevoed door de ervaring van een professioneel brandweerman-ambulancier in Brussel, tussen missie, discipline en menselijkheid.",why_3_tag:"Beroep",why_4_label:"Overdracht",why_4_title:"Delen wat het publiek niet altijd ziet",why_4_text:"Zonder geforceerd heldendom wil het boek tonen wat er achter het uniform gebeurt: inspanning, twijfel, aanwezigheid en dienstbaarheid.",why_4_tag:"Geheugen",instagram_title:"Het Lookfavor-universum volgen",instagram_text:"Achter de schermen, beelden, toekomstige boeken en projecten rond het brandweeruniversum worden vooral op Instagram gedeeld.",instagram_contact:"Om het project te volgen of contact op te nemen, blijft Instagram de eenvoudigste toegangspoort.",instagram_button:"Instagram openen",footer_text:"Boeken, verhalen en terreinprojecten."},
+    en:{pageTitle:"Lookfavor Publishing — Books by a firefighter-paramedic author",brand:"Lookfavor Publishing",stamp:"LOOKFAVOR · BOOKS",site_language_label:"Site language",site_country_label:"Amazon country",nav_book:"The book",nav_buy:"Buy",nav_author:"The author",nav_future:"Future books",hero_eyebrow:"Author · photographer · firefighter-paramedic",hero_title:"Between flames, image and memory.",hero_lead:"Books born from the field and the human side: stories, photographs, journals and projects around the firefighter-paramedic profession, transmission and moments that cannot be replayed.",hero_cta_buy:"Choose my edition",hero_cta_future:"View future books",trust_1:"An honest and accessible field-based vision.",trust_2:"The eye of a firefighter and photographer.",trust_3:"Books made to transmit, not to decorate.",cover_title:"Writing the field. Capturing the instant.",cover_li_1:"Firefighter-paramedic stories",cover_li_2:"Documentary photography",cover_li_3:"Transmission, discipline and humanity",amazon_tag:"Available on Amazon",book_lead:"A personal and visual story about vision, fire, documentary photography and perseverance. A book written from field experience, with the sensitivity of a firefighter-paramedic and the eye of a photographer.",book_text:"First choose the site language and Amazon country in the top right. Then choose the book language. The Amazon button updates automatically.",book_cta:"Buy the book",book_cta_author:"Discover the author",selector_title:"Choose the book language",selector_intro:"The Amazon country is the one selected at the top of the site. Here, you only choose the book’s language edition.",book_language_label:"Book language",selected_country_label:"Amazon country used",open_amazon:"Open on Amazon",recommended:"Recommended link",automatic:"Country automatically selected based on the site language.",author_title:"Gaétan Vermeire",author_bio_1:"Gaétan Vermeire is an author, photographer and professional firefighter-paramedic in Brussels. His work brings together writing, a documentary eye, field photography and lived experience at the heart of emergency response in Brussels.",author_bio_2:"His books explore what emergency reveals: humanity, discipline, fragility, perseverance and the silences sometimes carried after a call.",lookfavor_meaning_1:"Lookfavor is a name built around a simple idea: sight is a favor. Seeing is not only looking. It means learning to perceive what others may not always notice, even with open eyes.",lookfavor_meaning_2:"This attention to detail, to the instant and to the human side guides Gaétan Vermeire’s editorial universe.",future_title:"Future books",future_intro:"This showcase is built to host Gaétan Vermeire’s upcoming editorial projects.",future_status:"Coming soon",future_1_title:"Duty journal",future_1_text:"A journal inspired by station life to record shifts, lessons, meaningful calls and personal progress.",future_1_tag:"Editorial project",future_2_title:"Journal of a future firefighter",future_2_text:"A tool to support firefighter candidates in their preparation, discipline, mindset and organization.",future_2_tag:"Preparation & transmission",future_3_title:"Firefighter preparation journal",future_3_text:"A practical support to structure training, track progress and move methodically toward the tests.",future_3_tag:"Physical & mental preparation",future_4_text:"An immersive book without images about what happens behind the scenes: the firefighter’s lived experience, what the public does not see, the emotions, doubts, lessons and silences of the profession.",future_4_tag:"Immersive narrative",why_title:"Why this book?",why_intro:"The Art of the Instant is not only a photo book. It is a trace: of a vision, a journey and a way to transmit the field.",why_1_label:"Passion",why_1_title:"A dream crossing through the flames",why_1_text:"This book tells a story of perseverance, detours and the will to keep creating despite the constraints of everyday life.",why_1_tag:"Journey",why_2_label:"Image",why_2_title:"Photography as a witness",why_2_text:"Each image becomes a way to hold the instant, document the action and give a face to what passes too quickly.",why_2_tag:"Reportage",why_3_label:"Field",why_3_title:"The eye of a firefighter",why_3_text:"The book is shaped by the experience of a professional firefighter-paramedic in Brussels, between mission, discipline and humanity.",why_3_tag:"Profession",why_4_label:"Transmission",why_4_title:"Sharing what the public does not always see",why_4_text:"Without forced heroism, the book aims to show what happens behind the uniform: effort, doubt, presence and the meaning of service.",why_4_tag:"Memory",instagram_title:"Follow the Lookfavor universe",instagram_text:"Behind the scenes, images, upcoming books and projects around the firefighter universe are shared first on Instagram.",instagram_contact:"To follow the project or get in touch, Instagram remains the simplest entry point.",instagram_button:"Open Instagram",footer_text:"Books, stories and field projects."}
+  };
+
+
+  const ids={siteLanguage:document.getElementById("siteLanguageSelect"),siteCountry:document.getElementById("siteCountrySelect"),bookLanguage:document.getElementById("bookLanguageSelect"),countryMirror:document.getElementById("countryMirror"),displayBookTitle:document.getElementById("displayBookTitle"),displaySubtitle:document.getElementById("displaySubtitle"),resultTitle:document.getElementById("resultTitle"),resultText:document.getElementById("resultText"),amazonButton:document.getElementById("amazonButton"),fallbackNote:document.getElementById("fallbackNote"),bookCoverImage:document.getElementById("bookCoverImage")};
+  function amazonUrl(country, asin){return "https://kdp.amazon.com/amazon-dp-action/"+country+"/dualbookshelf.marketplacelink/"+asin;}
+  function fillCountries(lang){const selected=ids.siteCountry.value||"auto";ids.siteCountry.innerHTML="";countryOrder[lang].forEach(code=>{const o=document.createElement("option");o.value=code;o.textContent=countries[code][lang];ids.siteCountry.appendChild(o)});ids.siteCountry.value=countryOrder[lang].includes(selected)?selected:"auto";}
+  function fillBookOptions(lang){Array.from(ids.bookLanguage.options).forEach(o=>{o.textContent=books[o.value].option[lang]})}
+  function country(){return ids.siteCountry.value==="auto"?defaultCountry[ids.siteLanguage.value]:ids.siteCountry.value}
+  function translate(){const lang=ids.siteLanguage.value;const tx=text[lang];document.documentElement.lang=lang;document.title=tx.pageTitle;document.querySelectorAll("[data-key]").forEach(el=>{const key=el.getAttribute("data-key");if(tx[key])el.innerHTML=tx[key]});fillCountries(lang);fillBookOptions(lang)}
+  function update(){const lang=ids.siteLanguage.value;const book=books[ids.bookLanguage.value];const c=country();const tx=text[lang];ids.displayBookTitle.textContent=book.title;ids.displaySubtitle.textContent=book.subtitle;ids.resultTitle.textContent=book.title;ids.resultText.textContent=tx.recommended+" : Amazon "+countries[c][lang]+".";ids.amazonButton.textContent=tx.open_amazon;ids.amazonButton.href=amazonUrl(c,book.asin);ids.countryMirror.innerHTML="<option>"+countries[c][lang]+"</option>";ids.fallbackNote.textContent=ids.siteCountry.value==="auto"?tx.automatic:"";ids.bookCoverImage.src=book.cover;ids.bookCoverImage.alt=book.alt}
+  function render(){translate();update()}
+  ids.siteLanguage.addEventListener("change",render);ids.siteCountry.addEventListener("change",update);ids.bookLanguage.addEventListener("change",update);document.getElementById("year").textContent=new Date().getFullYear();render();
+})();
+</script>
+</body>
+</html>
